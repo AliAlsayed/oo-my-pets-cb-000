@@ -8,6 +8,10 @@ class Owner
     @@count += 1
   end
 
+  def sel.count
+    @@count
+  end
+
   def self.all
     @@all
   end
