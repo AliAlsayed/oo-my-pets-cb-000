@@ -8,7 +8,7 @@ class Owner
     @@count += 1
   end
 
-  def sel.count
+  def self.count
     @@count
   end
 
