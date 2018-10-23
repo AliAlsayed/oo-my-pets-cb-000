@@ -20,6 +20,5 @@ class Owner
     @@count = 0
   end
 
-  end
 
 end
