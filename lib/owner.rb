@@ -16,4 +16,10 @@ class Owner
     @@all
   end
 
+  def self.reset
+    @@count = 0
+  end
+    
+  end
+
 end
