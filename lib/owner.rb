@@ -55,7 +55,7 @@ class Owner
     @pets.each do |k, v|
       v.each{|pet| pet.mood = 'nervous'}
     end
-    @pets.each{|k, v| v = []}
+    @pets.each{|k, v| k = []}
   end
 
   def list_pets
